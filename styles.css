@@ -101,7 +101,6 @@ margin-left: 37%;
 
 
 
-
 .wrapper { 
     display:flex; 
     flex-wrap:wrap;
@@ -110,26 +109,49 @@ margin-left: 37%;
 }
 
 .box1 { 
+    margin-top: 5%;
     flex: 0 0 100%; 
     height: 50%; 
     text-align:center; 
-    overflow:visible;
     background:#C7AF9A;
 }
 
 .box2 { 
+    margin-top: 5%;
     flex: 0 0 100%; 
     height: 50%; 
     text-align:center; 
-    overflow:visible;
     background:#C7AF9A;
+}
+
+.box1 h2{
+    margin-left: 75%;
+}
+
+.box2 h2{
+    margin-left: 75%;
+}
+
+.box1 p{
+    margin-left: 5%;
+    margin-right: 25%;
+}
+.box2 p{
+    margin-left: 5%;
+    margin-right: 25%;
 }
 .trine{
     width: 15%;
+    margin-left: 75%;
+    margin-bottom: 2%;
+    margin-top: -14%;
 }
 
 .roberta{
-    width: 15%;
+    width: 18%;
+    margin-left: 110%;
+    margin-bottom: 2%;
+    margin-top: -5%;
 }
 
 /*KONTAKT-sidens indhold med kontaktoplysninger, åbningstider og find-vej-kort*/
